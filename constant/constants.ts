@@ -1,27 +1,32 @@
-export const NavLink[
-    {
-        id:1,
-        url:'#',
-        lable:'Home',
-    },
-    {
-        id:2,
-        url:'#',
-        lable:'Company',
-    },
-    {
-        id:3,
-        url:'#',
-        lable:'Services',
-    },
-    {
-        id:4,
-        url:'#',
-        lable:'Portfolio',
-    },
-    {
-        id:5,
-        url:'#',
-        lable:'Blog',
-    }
-]
+export const NavLink = [
+  {
+    id: 1,
+    url: "#",
+    label: "Home",
+  },
+  {
+    id: 2,
+    url: "#",
+    label: "Company",
+  },
+  {
+    id: 3,
+    url: "#",
+    label: "Services",
+  },
+  {
+    id: 4,
+    url: "#",
+    label: "Portfolio",
+  },
+  {
+    id: 5,
+    url: "#",
+    label: "Blog",
+  },
+  {
+    id: 6,
+    url: "#",
+    label: "Contact",
+  },
+];
