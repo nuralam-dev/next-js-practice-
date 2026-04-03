@@ -1,14 +1,12 @@
+import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import type { Metadata } from "next";
 import { Rajdhani } from "next/font/google";
 import "./globals.css";
-import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 
 const font = Rajdhani({
-  weight:['300','400','500','600','700'],
-  subsets:["latin"]
-})
-
-
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,10 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${font.className} antialiased`}
-      >
-        <ResponsiveNav/>
+      <body className={`${font.className} antialiased`}>
+        <ResponsiveNav />
         {children}
       </body>
     </html>
