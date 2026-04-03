@@ -1,11 +1,5 @@
-import React from 'react'
-
 const home = () => {
-  return (
-    <div className=''>
-      Home....
-    </div>
-  )
-}
+  return <div className="overflow-hidden"></div>;
+};
 
-export default home
+export default home;
