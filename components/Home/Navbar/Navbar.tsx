@@ -1,5 +1,6 @@
 "use client";
 
+import ThemeToogler from "@/components/Helper/ThemeToogler";
 import { NavLink } from "@/constant/constants";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -28,7 +29,7 @@ const Navbar = () => {
       <MobileNavbar showNav={showNav} closeNav={closeNavHandler} />
 
       <div
-        className={`fixed w-full transition-all duration-300 h-[12vh] z-[1000] flex items-center ${
+        className={`fixed w-full transition-all duration-300 h-[12vh] z-[100] flex items-center ${
           navBg ? "bg-blue-900 shadow-md" : "bg-transparent"
         }`}
       >
@@ -72,7 +73,8 @@ const Navbar = () => {
 
               <span className="relative">Create Account</span>
             </a>
-
+            {/* theme toggler */}
+            <ThemeToogler />
             <HiBars3BottomRight
               onClick={openNavHandler}
               className="w-8 h-8 text-white lg:hidden cursor-pointer"

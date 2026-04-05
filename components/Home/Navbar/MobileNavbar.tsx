@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CgClose } from "react-icons/cg";
 
 
-const MobileNavbar = ({ showNav, closeNav }) => {
+const MobileNavbar = ({ showNav, closeNav }:any) => {
   
   
   const navOpen = showNav ? "translate-x-0" : "translate-x-[-100%]";
@@ -13,7 +13,7 @@ const MobileNavbar = ({ showNav, closeNav }) => {
       
       <div 
         onClick={closeNav}
-        className={`fixed ${showNav ? "block" : "hidden"} inset-0 transform transition-all duration-500 z-[1002] bg-black opacity-70 w-full h-svh`}
+        className={`fixed ${showNav ? "block" : "hidden"} inset-0 transform transition-all duration-500 z-[100] bg-black opacity-70 w-full h-svh`}
       ></div>
       
       
