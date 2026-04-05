@@ -26,8 +26,7 @@ const ThemeToogler = () => {
       ) : (
         <BiMoon className="text-white w-8 h-8 cursor-pointer" />
       )}
-      ;
-    </button>
+    </button>   
   );
 };
 

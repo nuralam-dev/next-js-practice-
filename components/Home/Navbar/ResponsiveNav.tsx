@@ -8,7 +8,7 @@ const ResponsiveNav = () => {
     <div>
       <Navbar/>
       <MobileNavbar/>
-      <Hero/>
+      
     </div>
   )
 }

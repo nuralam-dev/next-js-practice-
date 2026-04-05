@@ -1,11 +1,10 @@
-
-import React from "react";
-
+import Home from "@/components/Home/Home";
 const HomePage = () => {
-  return <div >
-    
-    <h1 className="items-center h-[200px]">home page</h1>
-  </div>;
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 };
 
 export default HomePage;
