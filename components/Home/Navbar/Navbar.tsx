@@ -40,7 +40,7 @@ const Navbar = () => {
               <GrTechnology className="w-6 h-6 text-white" />
             </div>
             <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold">
-              DevTech
+            Tech All Right
             </h1>
           </div>
 

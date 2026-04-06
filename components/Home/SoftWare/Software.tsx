@@ -1,7 +1,7 @@
 import SoftwareCard from "./SoftwareCard";
 const Software = () => {
   return (
-    <section className="pt-16 pb-16">
+    <div className="pt-16 pb-16">
       <div className="text-center">
         <h2 className="uppercase text-lg sm:text-xl md:text-2xl font-bold text-blue-700 dark:text-pink-500">
           Softwares
@@ -16,7 +16,7 @@ const Software = () => {
         <SoftwareCard icon="/images/i2.png" title="Custom CRM Solutions" />
         <SoftwareCard icon="/images/i3.png" title="Data Analytics Suite" />
       </div>
-    </section>
+    </div>
   );
 };
 
