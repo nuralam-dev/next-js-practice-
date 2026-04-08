@@ -9,17 +9,18 @@ import Software from "./Software/Software";
 import WhyChoose from "./WhyChoose/WhyChoose";
 
 const home = () => {
-  return <div className="overflow-hidden">
-   <Hero/>
-   <Service/>
-   <About/>
-   <WhyChoose/>
-   <Software/>
-   <Project/>
-   <Review/>
-   <Blog/>
-   
-  </div>;
+  return (
+    <div className="overflow-hidden">
+      <Hero />
+      <Service />
+      <About />
+      <WhyChoose />
+      <Software />
+      <Project />
+      <Review />
+      <Blog />
+    </div>
+  );
 };
 
 export default home;
