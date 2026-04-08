@@ -25,36 +25,42 @@ const Project = () => {
         </div>
         {/* project image */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+          <div data-aos="zoom-in" data-aos-anchor-placement="top-center">
+            <Image src="/images/p1.png" alt="Image" width={600} height={600} />
+          </div>
           <div
             data-aos="zoom-in"
             data-aos-anchor-placement="top-center"
-            
+            data-aos-delay="100"
           >
-            <Image src="/images/p1.png" alt="Image" width={600} height={600} />
-          </div>
-          <div data-aos="zoom-in"
-            data-aos-anchor-placement="top-center"
-            data-aos-delay="100">
             <Image src="/images/p2.png" alt="Image" width={600} height={600} />
           </div>
-          <div data-aos="zoom-in"
+          <div
+            data-aos="zoom-in"
             data-aos-anchor-placement="top-center"
-            data-aos-delay="200">
+            data-aos-delay="200"
+          >
             <Image src="/images/p3.png" alt="Image" width={600} height={600} />
           </div>
-          <div data-aos="zoom-out"
+          <div
+            data-aos="zoom-in"
             data-aos-anchor-placement="top-center"
-            data-aos-delay="300">
+            data-aos-delay="300"
+          >
             <Image src="/images/p4.png" alt="Image" width={600} height={600} />
           </div>
-          <div data-aos="zoom-out"
+          <div
+            data-aos="zoom-in"
             data-aos-anchor-placement="top-center"
-            data-aos-delay="400">
+            data-aos-delay="400"
+          >
             <Image src="/images/p5.png" alt="Image" width={600} height={600} />
           </div>
-          <div data-aos="zoom-out"
+          <div
+            data-aos="zoom-in"
             data-aos-anchor-placement="top-center"
-            data-aos-delay="500">
+            data-aos-delay="500"
+          >
             <Image src="/images/p6.png" alt="Image" width={600} height={600} />
           </div>
         </div>
